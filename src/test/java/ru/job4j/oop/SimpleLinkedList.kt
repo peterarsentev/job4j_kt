@@ -34,6 +34,7 @@ class SimpleLinkedList<T> : Iterable<T> {
 
 fun main() {
     val node = SimpleLinkedList.Node<String>("Kotlin")
+    println(node)
     val list = SimpleLinkedList<String>()
     for (value in list) {
         println(value)

@@ -16,8 +16,9 @@ class Doctor : Profession() {
 
 open class Person(val name : String)
 
-class Student(name: String, group: String) : Person(name)
+class Student(name: String, group: String) : Person(name + group)
 
 fun main() {
     val doctor = Doctor()
+    println(doctor)
 }

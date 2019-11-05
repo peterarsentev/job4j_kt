@@ -17,4 +17,5 @@ class User(var name: String = "",
 
 fun main() {
     val user = User(email = "parsentev@yandex.ru", password = "secret")
+    println(user)
 }
