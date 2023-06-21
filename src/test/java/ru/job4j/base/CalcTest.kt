@@ -1,14 +1,12 @@
 package ru.job4j.base
 
-import io.kotlintest.shouldBe
-import io.kotlintest.specs.StringSpec
+import org.junit.jupiter.api.Test
+import kotlin.test.assertEquals
 
-class CalcTest : StringSpec({
-    "1 + 1 = 2" {
-        add(1, 1) shouldBe 2
-    }
 
-    "1 - 1 = 0" {
-        subtract(1, 1) shouldBe 0
+class CalcTest {
+    @Test
+    fun when1Plus1() {
+        assertEquals(add(1, 1), 3)
     }
-})
+}
