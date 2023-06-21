@@ -7,6 +7,6 @@ import kotlin.test.assertEquals
 class CalcTest {
     @Test
     fun when1Plus1() {
-        assertEquals(add(1, 1), 3)
+        assertEquals(add( 1, 1), 3)
     }
 }

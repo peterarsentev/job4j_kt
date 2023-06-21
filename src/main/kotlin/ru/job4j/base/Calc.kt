@@ -8,7 +8,8 @@ fun subtract(first : Int, second : Int) : Int {
     return first - second
 }
 
-fun main() {
+fun main()
+{
     val plus = add(1, 1)
     println("1 + 1 = $plus")
 
