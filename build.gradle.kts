@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.8.22"
+    kotlin("jvm") version "2.0.0"
     checkstyle
 }
 checkstyle {
@@ -15,6 +15,8 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    testImplementation("org.junit.jupiter:junit-jupiter-engine:5.10.1")
+    testImplementation("org.assertj:assertj-core:3.24.2")
 }
 
 tasks.test {
